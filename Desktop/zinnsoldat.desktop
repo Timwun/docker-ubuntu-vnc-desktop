@@ -2,5 +2,5 @@
 Encoding=UTF-8
 Name=Link to Zinnsoldat
 Type=Application
-URL=xdg-open https://github.com/PlaceDE-Official/zinnsoldat/raw/main/output/placebot.user.js
+EXEC=xdg-open https://github.com/PlaceDE-Official/zinnsoldat/raw/main/output/placebot.user.js
 Icon=text-html
