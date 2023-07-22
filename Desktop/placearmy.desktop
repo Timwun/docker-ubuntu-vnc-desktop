@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=Link to place.army
-Type=Link
-URL=https://place.army/
+Type=Application
+URL=xdg-open https://place.army/
 Icon=text-html

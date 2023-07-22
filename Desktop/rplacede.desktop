@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=Link to r/placeDE
-Type=Link
-URL=https://reddit.com/r/placeDE
+Type=Application
+URL=xdg-open https://reddit.com/r/placeDE
 Icon=text-html

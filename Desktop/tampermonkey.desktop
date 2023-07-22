@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=Link to Tampermonkey
-Type=Link
-URL=https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/
+Type=Application
+URL=xdg-open https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/
 Icon=text-html
