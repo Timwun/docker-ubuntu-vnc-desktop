@@ -38,12 +38,6 @@ run:
 shell:
 	docker exec -it ubuntu-desktop-lxde-test bash
 
-# Generate the SSL/TLS config for HTTPS
-gen-ssl:
-	mkdir -p ssl
-	openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
-		-keyout ssl/nginx.key -out ssl/nginx.crt
-
 clean:
 	rm -f $(templates)
 
