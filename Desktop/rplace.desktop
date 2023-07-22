@@ -2,5 +2,5 @@
 Encoding=UTF-8
 Name=Link to r/place
 Type=Application
-EXEC=firefox https://reddit.com/r/place
+Exec=firefox https://reddit.com/r/place
 Icon=text-html

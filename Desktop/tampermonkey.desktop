@@ -2,5 +2,5 @@
 Encoding=UTF-8
 Name=Link to Tampermonkey
 Type=Application
-EXEC=firefox https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/
+Exec=firefox https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/
 Icon=text-html
