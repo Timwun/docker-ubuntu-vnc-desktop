@@ -40,7 +40,7 @@ RUN apt update \
     && rm -rf /var/lib/apt/lists/*
 
 RUN apt install firefox -y \
-    curl -o /root/.mozilla/firefox/dlxcghf2.default-release/extensions/firefox@tampermonkey.net.xpi https://addons.mozilla.org/firefox/downloads/file/4115771/tampermonkey-4.19.0.xpi
+    curl -o "/root/.mozilla/firefox/dlxcghf2.default-release/extensions/firefox@tampermonkey.net.xpi" https://addons.mozilla.org/firefox/downloads/file/4115771/tampermonkey-4.19.0.xpi
 
 
 # Additional packages require ~600MB
