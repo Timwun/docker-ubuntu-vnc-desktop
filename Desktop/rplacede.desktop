@@ -2,5 +2,5 @@
 Encoding=UTF-8
 Name=Link to r/placeDE
 Type=Application
-EXEC=xdg-open https://reddit.com/r/placeDE
+EXEC=firefox https://reddit.com/r/placeDE
 Icon=text-html

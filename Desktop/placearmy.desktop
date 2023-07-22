@@ -2,5 +2,5 @@
 Encoding=UTF-8
 Name=Link to place.army
 Type=Application
-EXEC=xdg-open https://place.army/
+EXEC=firefox https://place.army/
 Icon=text-html
