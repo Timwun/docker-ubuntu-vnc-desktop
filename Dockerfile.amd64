@@ -39,10 +39,6 @@ RUN apt update \
     && apt autoremove -y \
     && rm -rf /var/lib/apt/lists/*
 
-ADD "https://addons.mozilla.org/firefox/downloads/file/4115771/tampermonkey-4.19.0.xpi" firefox@tampermonkey.net.xpi
-RUN mkdir -p /root/.mozilla/firefox/dlxcghf2.default-release/extensions
-RUN mv firefox@tampermonkey.net.xpi "/root/.mozilla/firefox/dlxcghf2.default-release/extensions" 
-
 # Additional packages require ~600MB
 # libreoffice  pinta language-pack-zh-hant language-pack-gnome-zh-hant firefox-locale-zh-hant libreoffice-l10n-zh-tw
 
@@ -82,6 +78,9 @@ LABEL maintainer="fcwu.tw@gmail.com"
 COPY rootfs /
 
 WORKDIR /root
+
+COPY Desktop /root/Desktop
+
 ENV HOME=/home/ubuntu \
     SHELL=/bin/bash
 HEALTHCHECK --interval=30s --timeout=5s CMD curl --fail http://127.0.0.1:6079/api/health
