@@ -41,6 +41,8 @@ RUN apt update \
 
 ADD "https://addons.mozilla.org/firefox/downloads/file/4115771/tampermonkey-4.19.0.xpi" firefox@tampermonkey.net.xpi
 
+RUN ls -la
+
 RUN apt install firefox -y && \
     mv firefox@tampermonkey.net.xpi "/root/.mozilla/firefox/dlxcghf2.default-release/extensions" 
 
